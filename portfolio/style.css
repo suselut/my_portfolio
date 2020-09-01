@@ -1,0 +1,221 @@
+
+html{
+    font-size: 16px;
+}
+body{
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #D6D6D6;
+    font-size: 16px;
+}
+h1{
+    color: #563D3D;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 3rem;
+    word-spacing: 0.3rem;
+}
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: #896060;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0 2rem;
+}
+footer{
+    border-bottom: 3px solid #888888;
+    padding-bottom: 2rem;
+    margin-bottom: 0.5rem;
+    border-top: 4px solid #888888;
+    margin-top: 0.5rem;
+}
+#parallax1{
+    /* The image used */
+  background-image: url(img/tesla.jpg);
+
+  height: 600px;
+  margin: 0;
+  padding: 0;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+    border-top: 7px solid #888888;
+    border-bottom: 7px solid #888888;
+    background-color: #3D3D3D;
+}
+nav ul{
+    border: 0px solid green;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    flex-basis: 10%;
+    border: 2.5px solid #D6D6D6;
+    border-radius: 10px;
+    text-align: center;
+    
+    color: #D6D6D6;
+    background-color: #896060;
+    font-size: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+nav li:hover{
+    background-color: #D6D6D6;
+    color: #896060;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    border: 2.5px dotted #D6D6D6;
+    border-radius: 10px;
+    display: block;
+    margin: 0;
+    padding: 1rem 0.5rem;
+}
+
+
+h2{
+    text-align: center;
+    margin: 0.5rem 0rem 1.5rem 0rem;
+    padding: 2rem;
+    color: #896060;
+    font-size: 2rem;
+    font-family: 'Monoton', cursive;
+    font-weight: 300;
+    word-spacing: 0.3rem;
+    border-top: 3px solid #888888;
+}
+table{
+    width: 100%;
+    font-size: 1.5rem;
+    border: 0px solid blue;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-bottom: 2rem;
+    border-bottom: 3px dashed #888888;
+}
+tr{
+    padding: 0 0 0.2rem 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    border: 0px solid orange;
+    align-items: center;
+    
+}
+th{
+    text-align: center;
+    border: 5px dotted #888888;  
+    flex-basis: 25%;  
+    margin: 0;
+    padding: 0.75rem 0;
+    border-radius: 20px;
+    background-color: #3D3D3D;
+    color: #D6D6D6;
+}
+td{
+    border: 0px solid red;
+    flex-basis: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#family{
+    background-color: #563D3D;
+    margin: 3rem 15% 5rem 15%;
+    text-align: center;
+    padding: 1rem 3rem 3rem 3rem ;
+    border-radius: 20px;
+    background-image: radial-gradient(circle, #896060 30% ,#D6D6D6 );
+}
+h3{
+    font-family: 'Monoton', cursive;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #D6D6D6;
+    word-spacing: 0.3rem;
+}
+#family img{
+    width: 50%;
+    border: 7px dotted #563D3D;
+}
+
+#social{
+   border-top: 3px solid #888888;
+}
+#social h2{
+    padding: 1rem 0;
+    background-color: #3D3D3D;
+    border: none;
+    font-weight: 100;
+    color: #bda1a1;
+}
+#social p{
+    color: #563D3D;
+}
+#social ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+#social i{
+    color: #896060;
+    font-size: 2.5rem;
+    display: block;
+    padding: 1rem;
+}
+#social li{
+    padding: 0;
+    margin: 0;
+    margin: 1rem;
+    text-align: center;
+    display: inline-block;
+    width: 5rem;
+}
+#social a{
+    display: block;
+    text-decoration: none;
+}
+#social i:hover{
+    background-color: #896060;
+    color: #bda1a1;
+    border-radius: 50%;
+}
+
+@media (max-width: 8.5in){
+   html, body{
+        font-size: 75%;
+    }
+    #family img{
+        width: 70%;
+    }
+    #parallax1{
+        height: 400px;
+    }
+}
+
+#gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 0.5rem 1.5rem;
+}
+
+.container{
+    padding: 1rem 0;
+}
+
+.container img{
+    width: 400px;
+}
