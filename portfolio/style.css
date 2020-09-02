@@ -193,23 +193,6 @@ h3{
     border-radius: 50%;
 }
 
-@media (max-width: 8.5in){
-   html, body{
-        font-size: 75%;
-    }
-    #family img{
-        width: 70%;
-    }
-    #parallax1{
-        height: 400px;
-    }
-    .container{
-        width: 50%;
-    }
-    .accomplishments h1{
-        font-size: 2rem;
-    }
-}
 
 #gallery{
     display: flex;
@@ -220,8 +203,28 @@ h3{
 
 .container{
     padding: 1rem 0;
+    border: 1px solid green;
 }
 
 .container img{
     width: 400px;
 }
+
+
+@media (max-width: 8.5in){
+    html, body{
+         font-size: 75%;
+     }
+     #family img{
+         width: 70%;
+     }
+     #parallax1{
+         height: 400px;
+     }
+     .container img{
+         width: 200px;
+     }
+     .accomplishments h1{
+         font-size: 2.5rem;
+     }
+ }
