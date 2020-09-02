@@ -203,6 +203,9 @@ h3{
     #parallax1{
         height: 400px;
     }
+    .container img{
+        width: 50%;
+    }
 }
 
 #gallery{
