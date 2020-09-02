@@ -203,11 +203,11 @@ h3{
     #parallax1{
         height: 400px;
     }
-    .container img{
+    .container{
         width: 50%;
     }
     .accomplishments h1{
-        font-size: 50%;
+        font-size: 2rem;
     }
 }
 
