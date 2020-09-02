@@ -206,6 +206,9 @@ h3{
     .container img{
         width: 50%;
     }
+    .accomplishments h1{
+        font-size: 50%;
+    }
 }
 
 #gallery{
