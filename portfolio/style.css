@@ -282,6 +282,29 @@ img {
     align-items: center;
 }
 
+.subtext {
+    background-color: #896060;
+    color: #D6D6D6;
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
+
+#other_accomplishments {
+    background-color: #563D3D;
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+#other_accomplishments h2 {
+    color: #D6D6D6;
+}
+
+#other_accomplishments img {
+    height: 30rem;
+    margin: 0.5rem;
+}
 
 @media (max-width: 8.5in){
     html, body{
