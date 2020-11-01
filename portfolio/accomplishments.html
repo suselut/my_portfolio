@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat+Alternates&display=swap"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="style.css">
     <title>Accomplishments</title>
 </head>
-<body class="accomplishments">
+<body>
     <footer>
         <h1>My Accomplishments</h1>
         <p>(Not many, but so far so good!)</p> 
@@ -20,34 +21,40 @@
              </ul>
          </nav>
      </footer>
-     <h2> Mathematics </h2>
-     <div id="gallery">
-        <div class="container">
-            <img src="img/yeah_gramota.jpg" alt="big prize">
+
+     <h2 id="connected_to_gallery"> Mathematics </h2>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="img/yeah_gramota.jpg" alt="my accomplishment"> </div>
+            <div class="swiper-slide"> <img src="img/gramota1.jpg" alt="my accomplishment"> </div>
+            <div class="swiper-slide"> <img src="img/gramota2.jpg" alt="my accomplishment"> </div>
+            <div class="swiper-slide"> <img src="img/gramota3.jpg" alt="my accomplishment"> </div>
+            <div class="swiper-slide"> <img src="img/gramota4.jpg" alt="my accomplishment"> </div>
+            <div class="swiper-slide"> <img src="img/gramota5.jpg" alt="my accomplishment"> </div>
         </div>
-        <div class="container">
-            <img src="img/gramota1.jpg" alt="some prize">
-        </div>
-        <div class="container">
-            <img src="img/gramota2.jpg" alt="some prize">
-        </div>
-        <div class="container">
-            <img src="img/gramota3.jpg" alt="some prize">
-        </div>
-        <div class="container">
-            <img src="img/gramota4.jpg" alt="some prize">
-        </div>
-        <div class="container">
-            <img src="img/gramota5.jpg" alt="some prize">
-        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+     <h2 id="connected-to-languages"> Languages </h2>
+
+     <div class= "levels">
+        <p class="inner-ball"> Fluent </p>
+        <p class="inner-ball"> C1 </p>
+        <p class="inner-ball"> B1 </p>
+        <p class="inner-ball"> A2 </p>
      </div>
-     <h2> Languages </h2>
-        <ol>
-            <li> Bulgarian (native)</li>
-            <li> English (fluent)</li>
-            <li> Spanish (bueno)</li>
-            <li> German (gut)</li>
-        </ol>
+     <div class="languages">
+        <p class="ball bg"> Bulgarian </p>
+        <p class="ball eng"> English </p>
+        <p class="ball esp"> Spanish </p>
+        <p class="ball de"> German </p>
+     </div>
+
      <h2> Life </h2>
+     <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+     <script src="animation.js"></script>
+     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+     <script src="gallery.js"></script>
 </body>
 </html>

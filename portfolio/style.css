@@ -51,7 +51,6 @@ nav{
     background-color: #3D3D3D;
 }
 nav ul{
-    border: 0px solid green;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -98,7 +97,6 @@ h2{
 table{
     width: 100%;
     font-size: 1.5rem;
-    border: 0px solid blue;
     font-family: 'Montserrat Alternates', sans-serif;
     padding-bottom: 2rem;
     border-bottom: 3px dashed #888888;
@@ -109,7 +107,6 @@ tr{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    border: 0px solid orange;
     align-items: center;
     
 }
@@ -124,7 +121,6 @@ th{
     color: #D6D6D6;
 }
 td{
-    border: 0px solid red;
     flex-basis: 30%;
     text-align: center;
     font-weight: bold;
@@ -193,21 +189,97 @@ h3{
     border-radius: 50%;
 }
 
-
-#gallery{
-    display: flex;
-    justify-content: space-around;
-    flex-flow: wrap;
-    margin: 0.5rem 1.5rem;
+/* css for the gallery */
+.swiper-container{
+    background-color: #888888;
+    margin-top: 0;
+    padding: 2rem 0;
 }
 
-.container{
-    padding: 1rem 0;
-    border: 1px solid green;
+.swiper-slide {
+    text-align: center;
 }
 
-.container img{
-    width: 400px;
+img {
+    height: 600px;
+}
+
+.swiper-button-prev {
+    color: #D6D6D6;
+    font-weight: 900;
+    margin-left: 2rem;
+}
+
+.swiper-button-next {
+    color: #D6D6D6;
+    font-weight: 900;
+    margin-right: 2rem;
+}
+
+#connected_to_gallery{
+    background-color: #888888;
+    margin-bottom: 0;
+    color: #D6D6D6;
+}
+
+/* code for the language section of accomplishments */
+
+.languages {
+    background-color: transparent;
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+}
+
+.ball {
+    display: inline-flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #bda1a1;
+    width: 7.5rem;
+    height: 7.5rem;
+    padding: 0;
+    margin: 1rem;
+    color: #3D3D3D;
+    border: 0.4rem solid #563D3D;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    cursor: -webkit-grab;
+    box-shadow: 1rem 1rem 1rem 0.1rem rgba(86, 61, 61, 0.6);
+}
+
+
+#connected-to-languages {
+    background-color: #896060;
+    color: #D6D6D6;
+    margin: 2rem 0 0 0;
+    display: block;
+}
+
+.levels {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+    background-color: #896060;
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+}
+
+.inner-ball {
+    display: inline-flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #896060;
+    width: 7.5rem;
+    height: 7.5rem;
+    padding: 0;
+    margin: 1rem;
+    color: #D6D6D6;
+    border: 0.4rem solid #896060;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -220,11 +292,5 @@ h3{
      }
      #parallax1{
          height: 400px;
-     }
-     .container img{
-         width: 200px;
-     }
-     .accomplishments h1{
-         font-size: 2.5rem;
      }
  }
