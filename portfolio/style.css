@@ -200,8 +200,8 @@ h3{
     text-align: center;
 }
 
-img {
-    height: 600px;
+.swiper-slide img {
+    height: 40rem;
 }
 
 .swiper-button-prev {
@@ -216,7 +216,7 @@ img {
     margin-right: 2rem;
 }
 
-#connected_to_gallery{
+#connected-to-gallery{
     background-color: #888888;
     margin-bottom: 0;
     color: #D6D6D6;
@@ -266,6 +266,8 @@ img {
     text-align: center;
 }
 
+
+
 .inner-ball {
     display: inline-flex;
     font-size: 1.2rem;
@@ -289,7 +291,7 @@ img {
     padding-bottom: 2rem;
 }
 
-#other_accomplishments {
+#other-accomplishments {
     background-color: #563D3D;
     text-align: center;
     padding-bottom: 3rem;
@@ -297,11 +299,11 @@ img {
     margin-top: 2rem;
 }
 
-#other_accomplishments h2 {
+#other-accomplishments h2 {
     color: #D6D6D6;
 }
 
-#other_accomplishments img {
+#other-accomplishments img {
     height: 30rem;
     margin: 0.5rem;
 }
@@ -310,9 +312,16 @@ img {
     html, body{
          font-size: 75%;
      }
+    
      #family img{
          width: 70%;
      }
+     .swiper-slide img{
+        height: 25rem; 
+    }
+    #other-accomplishments img {
+        height: 25rem;
+    }
      #parallax1{
          height: 400px;
      }
