@@ -308,6 +308,21 @@ h3{
     margin: 0.5rem;
 }
 
+/* For hobbies: */
+
+.heading-of-slides {
+    color: #D6D6D6;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery2 img {
+    height: 30rem;
+}
+.gallery2 p {
+    color: #563D3D;
+}
+
 @media (max-width: 8.5in){
     html, body{
          font-size: 75%;

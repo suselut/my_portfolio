@@ -22,7 +22,7 @@ let pos = [ballBgXY, ballEngXY, ballEspXY, ballDeXY];
 
 let ballCount = 4;
 
-// not working tween
+// not working tween:
 
 // const { css, easing, tween } = window.popmotion;
 // const ballRenderer = css(ballBg);
