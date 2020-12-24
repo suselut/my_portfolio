@@ -332,12 +332,15 @@ h3{
          width: 70%;
      }
      .swiper-slide img{
-        height: 25rem; 
+        height: 20rem; 
     }
     #other-accomplishments img {
-        height: 25rem;
+        height: 20rem;
     }
      #parallax1{
          height: 400px;
+     }
+     .h1-acc {
+         font-size: 2.5rem;
      }
  }
