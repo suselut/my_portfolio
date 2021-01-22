@@ -202,6 +202,8 @@ h3{
 
 .swiper-slide img {
     height: 40rem;
+    border: #D6D6D6 5px solid;
+    border-radius: 20px;
 }
 
 .swiper-button-prev {
@@ -323,11 +325,63 @@ h3{
     color: #563D3D;
 }
 
-@media (max-width: 8.5in){
+#passions {
+    background-color: #bda1a1;
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+#connected-to-passions {
+    background-color: #bda1a1;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+.passion-section{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.giphy-embed{
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 35rem;
+    height: 14rem;
+}
+.passion-img{
+    flex-basis: 50%;
+    vertical-align: middle;
+    height: 14rem;
+    text-align: center;
+}
+.passion-img img{
+    height: inherit;
+}
+.passion-p{
+    flex-basis: 50%;
+}
+.align-left{
+    padding-left: 2rem;
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+#swimming .passion-img {
+    flex-basis: 61%;
+}
+#swimming .passion-p{
+    flex-basis: 39%;
+}
+#swimming .align-left{
+    padding-left: 0.5rem;
+    text-align: left;
+}
+ @media (max-width: 8.5in) and (min-width: 6.5in){
     html, body{
          font-size: 75%;
      }
-    
      #family img{
          width: 70%;
      }
@@ -342,5 +396,54 @@ h3{
      }
      .h1-acc {
          font-size: 2.5rem;
+     }
+     .passion-img {
+        height: 12rem;
+     }
+     .passion-p p {
+         font-size: 1.2rem;
+         margin: 0;
+     }
+     .align-left {
+        padding-right: 0;
+     }
+     .passion-p h3 {
+         margin-bottom: 0.5rem;
+         margin-top: 0;
+     }
+ }
+
+ @media (max-width: 6.5in){
+    html, body{
+         font-size: 75%;
+     }
+     #family img{
+         width: 70%;
+     }
+     .swiper-slide img{
+        height: 20rem; 
+    }
+    #other-accomplishments img {
+        height: 20rem;
+    }
+     #parallax1{
+         height: 400px;
+     }
+     .h1-acc {
+         font-size: 2.5rem;
+     }
+     .passion-img {
+        height: 9rem;
+     }
+     .passion-p p {
+         font-size: 1rem;
+         margin: 0;
+     }
+     .align-left {
+        padding-right: 0;
+     }
+     .passion-p h3 {
+         margin-bottom: 0.5rem;
+         margin-top: 0;
      }
  }
