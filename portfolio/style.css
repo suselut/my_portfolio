@@ -403,6 +403,9 @@ h3{
      .passion-img {
         height: 12rem;
      }
+     .giphy-embed {
+         width: 30rem;
+     }
      .passion-p p {
          font-size: 1.2rem;
          margin: 0;
@@ -444,6 +447,9 @@ h3{
      .passion-img {
         height: 9rem;
         width: auto;
+     }
+     .giphy-embed {
+         width: 22,5rem;
      }
      .passion-p p {
          font-size: 1rem;
