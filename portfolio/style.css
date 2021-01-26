@@ -349,6 +349,9 @@ h3{
     width: 35rem;
     height: 14rem;
 }
+.giphy-img {
+    display: none;
+}
 .passion-img{
     flex-basis: 50%;
     vertical-align: middle;
@@ -404,8 +407,10 @@ h3{
         height: 12rem;
      }
      .giphy-embed {
-         height: 12rem;
-         width: 30rem;
+        display: none;
+     }
+     .giphy-img {
+         display: block;
      }
      .passion-p p {
          font-size: 1.2rem;
@@ -448,9 +453,14 @@ h3{
      #physics .passion-img {
         height: 7rem;
      }
+     .passion-img {
+         height: 7rem;
+     }
      .giphy-embed {
-         height: 9rem;
-         width: 22.5rem;
+        display: none;
+     }
+     .giphy-img {
+         display: block;
      }
      .passion-p p {
          font-size: 1rem;
