@@ -404,6 +404,7 @@ h3{
         height: 12rem;
      }
      .giphy-embed {
+         height: 12rem;
          width: 30rem;
      }
      .passion-p p {
@@ -444,12 +445,12 @@ h3{
      .h1-acc {
          font-size: 2.5rem;
      }
-     .passion-img {
-        height: 9rem;
-        width: auto;
+     #physics .passion-img {
+        height: 7rem;
      }
      .giphy-embed {
-         width: 22,5rem;
+         height: 9rem;
+         width: 22.5rem;
      }
      .passion-p p {
          font-size: 1rem;
