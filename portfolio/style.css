@@ -324,7 +324,9 @@ h3{
 .gallery2 p {
     color: #563D3D;
 }
-
+.yoga-small {
+    display: none;
+}
 #passions {
     background-color: #bda1a1;
     padding: 0.5rem 2rem 1rem 2rem;
@@ -378,6 +380,7 @@ h3{
     padding-left: 0.5rem;
     text-align: left;
 }
+
  @media (max-width: 8.5in) and (min-width: 6.5in){
     html, body{
          font-size: 75%;
@@ -423,6 +426,12 @@ h3{
      .swiper-slide img{
         height: 20rem; 
     }
+    .yoga {
+        display: none;
+    }
+    .yoga-small {
+        display: inline-block;
+    }
     #other-accomplishments img {
         height: 20rem;
     }
@@ -434,6 +443,7 @@ h3{
      }
      .passion-img {
         height: 9rem;
+        width: auto;
      }
      .passion-p p {
          font-size: 1rem;
@@ -446,4 +456,11 @@ h3{
          margin-bottom: 0.5rem;
          margin-top: 0;
      }
+     #swimming .passion-img {
+        height: 7rem;
+    }
+    #swimming .passion-img img{
+        margin: 0;
+        padding: 0;
+    }
  }
